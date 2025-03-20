@@ -19,7 +19,7 @@ requiredEnvVars.forEach((envVar) => {
 app.use(express.json());
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://book-app-frontend-tau.vercel.app"],
+    origin: ["http://localhost:5173",'https://bookstore-coral-five.vercel.app'],
     credentials: true,
   })
 );
